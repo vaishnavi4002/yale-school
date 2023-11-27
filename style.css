@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(252, 248, 248);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #970e0e;
+}
+body{
+     background-image:url("https://img.freepik.com/premium-photo/young-cute-asian-college-student-girls-holding-books-pose-camera_102814-1405.jpg") ;
+     background-size:cover;
+     background-position:bottom 40%;
+     background-repeat: no-repeat;
+}
+#nav {
+    margin-top: 2%;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    gap: 50px;
+    justify-content:flex-end;
+    position: fixed;
+}
+
+#nav img {
+    height: 75px;
+}
+
+#nav h4 {
+    color: white;
+    font-weight: 600;
+}
+button{
+  background-color: #ffffff; 
+  border: none;
+  color: #970e0e;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:10px;
+}
+
+#page1 {
+    height: 100vh;
+    width: 45%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-left: 3%;
+}
+
+#page1 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+}
+#page1 p{
+    margin-top: 2%;
+    font-size: 18px;
+    line-height: 25px; 
+}
+#page1 button{
+    margin-top: 3%;
+    background-color: #970e0e; 
+    border: none;
+    color: rgb(249, 247, 247);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:10px;
+}
+section {
+    padding: 20px;
+    
+}
+
+.school-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-section {
+    padding: 20px;
+    margin: 20px 0;
+}
+.news-section h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+#card-container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event-card {
+    /* background-color: #bd5e5e; */
+    height: 40vh;
+    width:40%;
+    padding-top: 50px;
+    border-radius: 20px;
+     margin:10px 20px 15px 20px; 
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.event-card .overlay{
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.event-card h3{
+    margin-top: 5%;
+    font-size: 24px;
+    margin-bottom: 3%;
+    
+}
+.event-card p{
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#card1{
+    background-image: url("https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/migration-slide-image/sc400785_4x3.jpg?itok=Zy938Vf6");
+    background-size: cover;
+}
+#card2{
+    background-image: url("https://www.shutterstock.com/image-photo/winged-angel-statue-below-photographed-260nw-1085639336.jpg");
+    background-size: cover;
+}
+footer {
+    background-color: #970e0e;
+    padding: 1em;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #fcfcfc;
+}
+
+footer a {
+    font-weight:700;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
